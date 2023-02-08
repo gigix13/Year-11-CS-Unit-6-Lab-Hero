@@ -60,7 +60,7 @@ public class HeroTester {
     }
 
     @Test
-    public void TestFightToTheDeathNTimes() {
+    public void TestFightToTheDeathNTimes() throws InterruptedException {
         setUp();
 
         int numberOfFights = 100;
